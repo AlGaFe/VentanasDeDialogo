@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="642.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ejercicioventanasdialogo.FXMLDocumentController">
+   <children>
+      <GridPane layoutX="-1.0" layoutY="99.0" prefHeight="585.0" prefWidth="610.0">
+         <children>
+            <Button fx:id="MostrarInputDialog" onAction="#VentanasEmergenes" prefHeight="334.0" prefWidth="203.0" text="Mostrar Input Dialog" textFill="#0004ff" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="MostrarAlertaConfirmacion" onAction="#VentanasEmergenes" prefHeight="305.0" prefWidth="203.0" text="Mostrar Alerta Confirmación" textFill="#0004ff" GridPane.columnIndex="2" />
+            <Button fx:id="MostrarAlertaWarning" onAction="#VentanasEmergenes" prefHeight="326.0" prefWidth="203.0" text="Mostrar Alerta Warning" textFill="#0004ff" GridPane.columnIndex="1" />
+            <Button fx:id="MostrarInputDialogVarios" onAction="#VentanasEmergenes" prefHeight="295.0" prefWidth="203.0" text="Mostrar Input Dialog Varios" textFill="#0004ff" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="MostrarAlerteInfromación" onAction="#VentanasEmergenes" prefHeight="309.0" prefWidth="203.0" text="Mostrar Alerta Infromación" textFill="#0004ff" />
+            <Button fx:id="MostrarAlertaConfirmacionVarios" onAction="#VentanasEmergenes" prefHeight="292.0" prefWidth="211.0" text="Mostrar Alerta Confirmación Varios" textFill="#0004ff" GridPane.rowIndex="1" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Label fx:id="Label" layoutX="176.0" layoutY="14.0" prefHeight="73.0" prefWidth="281.0" text=" Selecciona una opción" textAlignment="RIGHT">
+         <font>
+            <Font name="AR ESSENCE" size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
